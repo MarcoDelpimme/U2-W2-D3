@@ -1,0 +1,13 @@
+$myFont: "spectral", sans serif;
+
+$font-size-small: 14px;
+$font-size-medium: 18px;
+$font-size-large: 24px;
+$font-size-extra-large: 48px;
+
+@mixin title-big {
+  font-size: $font-size-extra-large;
+  font-weight: bold;
+  color: $textColor;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.padding-block-sm {
+  padding-block: 8px;
+}
+
+.padding-inline-sm {
+  padding-inline: 8px;
+}
+
+.padding-block-sm {
+  padding-block: 8px;
+}
+
+.padding-inline-sm {
+  padding-inline: 8px;
+}
+
+.padding-block-normal {
+  padding-block: 16px;
+}
+
+.padding-inline-normal {
+  padding-inline: 16px;
+}
+
+.padding-block-normal {
+  padding-block: 16px;
+}
+
+.padding-inline-normal {
+  padding-inline: 16px;
+}
+
+.padding-block-md {
+  padding-block: 24px;
+}
+
+.padding-inline-md {
+  padding-inline: 24px;
+}
+
+.padding-block-md {
+  padding-block: 24px;
+}
+
+.padding-inline-md {
+  padding-inline: 24px;
+}
+
+.padding-block-lg {
+  padding-block: 32px;
+}
+
+.padding-inline-lg {
+  padding-inline: 32px;
+}
+
+.padding-block-lg {
+  padding-block: 32px;
+}
+
+.padding-inline-lg {
+  padding-inline: 32px;
+}
+
+.padding-block-xl {
+  padding-block: 48px;
+}
+
+.padding-inline-xl {
+  padding-inline: 48px;
+}
+
+.padding-block-xl {
+  padding-block: 48px;
+}
+
+.padding-inline-xl {
+  padding-inline: 48px;
+}
+
+.padding-block-xxl {
+  padding-block: 64px;
+}
+
+.padding-inline-xxl {
+  padding-inline: 64px;
+}
+
+.padding-block-xxl {
+  padding-block: 64px;
+}
+
+.padding-inline-xxl {
+  padding-inline: 64px;
+}
+
+.btn1 {
+  background-color: #0e6cff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn1:hover {
+  background-color: violet;
+}
+
+.btn2 {
+  background-color: #ff8700;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn2:hover {
+  background-color: violet;
+}
+
+.btn3 {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn3:hover {
+  background-color: violet;
+}
+
+.my-application {
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.5s;
+  border: 1px solid black;
+}
+.my-application:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.my-application-noborder {
+  border-radius: 10px;
+  box-shadow: 4px 6px 4px;
+  transition: box-shadow 0.5s;
+}
+.my-application-noborder:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.section-with-animation {
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: fadeInDown 3s 0.1s both;
+}
+@keyframes fadeInDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+header nav {
+  display: flex;
+  width: 100%;
+  gap: 5%;
+  padding-inline: 5%;
+  padding-block: 40px;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  gap: 100%;
+}
+header nav ul li {
+  list-style-type: none;
+}
+header nav ul li a {
+  text-decoration: none;
+}
+
+#container-head {
+  padding-inline: 5%;
+  background: #640fc5;
+  color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#container-head h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f4f4f4;
+  margin-bottom: 10px;
+}
+
+#container-img {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+#container-img div {
+  width: 20%;
+}
+#container-img div img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

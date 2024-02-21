@@ -1,0 +1,16 @@
+@mixin fadeInDownAnimation($distance: 20px, $duration: 1s, $delay: 0.2s) {
+  opacity: 0;
+  transform: translateY(-#{$distance});
+  animation: fadeInDown $duration $delay both;
+
+  @keyframes fadeInDown {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+.section-with-animation {
+  @include fadeInDownAnimation(30px, 3s, 0.1s);
+}

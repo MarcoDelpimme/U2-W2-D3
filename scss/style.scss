@@ -1,0 +1,59 @@
+@import "reset";
+@import "color";
+@import "font";
+@import "spaziature";
+@import "button";
+@import "mixins";
+@import "animation";
+
+//header start
+
+header nav {
+  display: flex;
+  width: 100%;
+  gap: 5%;
+  padding-inline: 5%;
+  padding-block: 40px;
+  align-items: center;
+
+  ul {
+    display: flex;
+    gap: 100%;
+
+    li {
+      list-style-type: none;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+#container-head {
+  padding-inline: 5%;
+  background: $bg_hero;
+  color: $textColor;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  h1 {
+    @include title-big;
+  }
+}
+
+// header end
+
+// main
+#container-img {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  div {
+    width: 20%;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+// main
