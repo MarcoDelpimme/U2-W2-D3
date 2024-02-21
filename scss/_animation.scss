@@ -14,3 +14,7 @@
 .section-with-animation {
   @include fadeInDownAnimation(30px, 3s, 0.1s);
 }
+
+.section-with-animation-2 {
+  @include fadeInDownAnimation(30px, 5s, 0.3s);
+}

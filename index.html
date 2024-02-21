@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <title>SASS DAY 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Micro+5&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <!-- HEADER -->
     <header>
-      <nav>
+      <nav class="margin-block-xl">
         <div style="width: 3%"><img src="./Assets/travel-icon.svg" alt="" /></div>
         <ul>
           <li><a href="#">Home</a></li>
@@ -25,18 +31,18 @@
           <h1 class="section-with-animation">
             Welcome to the
             <br />
-            BEACH
+            GAME
           </h1>
           <p class="padding-block-md padding-inline-md section-with-animation">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est eligendi tempore atque laborum. Quisquam nemo
             at non. Corrupti, vitae dolore.
           </p>
-          <button class="btn1 section-with-animation">Approfondisci</button>
-          <button class="btn2 section-with-animation">Accedi</button>
-          <button class="btn3 section-with-animation">Contattaci</button>
+          <button class="btn1 section-with-animation my-application-noborder">Approfondisci</button>
+          <button class="btn2 section-with-animation my-application-noborder">Accedi</button>
+          <button class="btn3 section-with-animation my-application-noborder">Contattaci</button>
         </div>
         <img
-          src="./Assets/istockphoto-489833698-612x612.jpg"
+          src="./Assets/il_fullxfull.2969190636_5w65.webp"
           class="my-application section-with-animation"
           style="width: 30%"
         />
@@ -45,11 +51,31 @@
     </header>
     <!-- HEADER -->
     <main>
-      <div id="container-img" class="padding-block-md">
-        <div><img src="./Assets/istockphoto-489833698-612x612.jpg" class="my-application-noborder" /></div>
-        <div><img src="./Assets/istockphoto-489833698-612x612.jpg" class="my-application-noborder" /></div>
-        <div><img src="./Assets/istockphoto-489833698-612x612.jpg" class="my-application-noborder" /></div>
-        <div><img src="./Assets/istockphoto-489833698-612x612.jpg" class="my-application-noborder" /></div>
+      <div id="container-img" class="padding-block-md mygrid section-with-animation" style="animation-delay: 0.5s">
+        <div>
+          <img
+            src="./Assets/il_fullxfull.2969190636_5w65.webp"
+            class="my-application-noborder section-with-animation"
+          />
+        </div>
+        <div>
+          <img
+            src="./Assets/il_fullxfull.2969190636_5w65.webp"
+            class="my-application-noborder section-with-animation"
+          />
+        </div>
+        <div>
+          <img
+            src="./Assets/il_fullxfull.2969190636_5w65.webp"
+            class="my-application-noborder section-with-animation"
+          />
+        </div>
+        <div>
+          <img
+            src="./Assets/il_fullxfull.2969190636_5w65.webp"
+            class="my-application-noborder section-with-animation"
+          />
+        </div>
       </div>
     </main>
   </body>

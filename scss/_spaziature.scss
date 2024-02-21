@@ -7,20 +7,20 @@ $spacing-values: (
   xxl: 64px,
 );
 
-@each $size, $value in $spacing-values {
-  .padding-block-#{$size} {
-    padding-block: $value;
-  }
-
-  .padding-inline-#{$size} {
-    padding-inline: $value;
-  }
-
-  .padding-block-#{$size} {
-    padding-block: $value;
-  }
-
-  .padding-inline-#{$size} {
-    padding-inline: $value;
+$directions: "inline", "block";
+@each $axis in $directions {
+  @each $size, $value in $spacing-values {
+    .padding-#{$size} {
+      padding: value;
+    }
+    .margin-#{$size} {
+      margin: value;
+    }
+    .padding-#{$axis}-#{$size} {
+      padding-#{$axis}: $value;
+    }
+    .margin-#{$axis}-#{$size} {
+      margin-#{$axis}: $value;
+    }
   }
 }

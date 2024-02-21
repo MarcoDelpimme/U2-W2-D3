@@ -18,9 +18,25 @@
 }
 
 .my-application {
-  @include floating(10px, 2px 2px 4px rgba(0, 0, 0, 0.1), 1px solid black);
+  @include floating(10px, 6px 2px 4px rgba(0, 0, 0, 0.1), 1px solid black);
 }
 
 .my-application-noborder {
   @include floating(10px, 4px 6px 4px);
+}
+
+@mixin grid($num-emelents-per-line: 3) {
+  display: flex;
+  flex-wrap: wrap;
+
+  > * {
+    flex: 1 0 calc(100% / #{$num-emelents-per-line});
+    box-sizing: border-box;
+    padding: 6px;
+    margin-inline: 2%;
+  }
+}
+
+.mygrid {
+  @include grid(6);
 }

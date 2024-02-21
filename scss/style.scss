@@ -11,19 +11,29 @@
 header nav {
   display: flex;
   width: 100%;
-  gap: 5%;
+
   padding-inline: 5%;
   padding-block: 40px;
   align-items: center;
+  background-color: lightgray;
 
   ul {
     display: flex;
-    gap: 100%;
+    justify-content: space-around;
+    width: 40%;
 
     li {
       list-style-type: none;
       a {
         text-decoration: none;
+        font-size: 30px;
+        &:hover {
+          background-color: rgb(118, 0, 118);
+          padding: 10px;
+          color: white;
+          border-radius: 30px;
+          transition: 0.5s;
+        }
       }
     }
   }
@@ -36,8 +46,13 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-inline: 2%;
+  border-radius: 35px;
   h1 {
     @include title-big;
+  }
+  p {
+    @include para;
   }
 }
 
@@ -48,6 +63,7 @@ header nav {
   width: 100%;
   display: flex;
   justify-content: space-around;
+
   div {
     width: 20%;
     img {

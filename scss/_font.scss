@@ -1,13 +1,22 @@
-$myFont: "spectral", sans serif;
+$myFont: "Micro 5", sans-serif;
 
 $font-size-small: 14px;
 $font-size-medium: 18px;
 $font-size-large: 24px;
-$font-size-extra-large: 48px;
+$font-size-extra-large: 70px;
 
 @mixin title-big {
   font-size: $font-size-extra-large;
   font-weight: bold;
   color: $textColor;
+  font-family: $myFont;
+  margin-bottom: 10px;
+}
+
+@mixin para {
+  font-size: $font-size-large;
+  font-weight: bold;
+  color: $textColor;
+  font-family: $myFont;
   margin-bottom: 10px;
 }
